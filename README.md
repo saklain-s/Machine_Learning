@@ -1,45 +1,50 @@
-# Machine Learning Algorithms
+# Easy ML
 
-This repository contains implementations of various Machine Learning (M.L) algorithms. Each algorithm is implemented in its own file and includes explanations, usage examples, and code comments to help you understand how they work.
+Welcome to this repository—a curated collection of hands-on programs and projects designed to deepen your understanding of Python's most popular libraries and machine learning applications.
 
-## Table of Contents
 
-- [Introduction](#introduction)
-- [Algorithms](#algorithms)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+## Folders Overview
 
-## Introduction
+- **Matplotlib**:  
+  Learn data visualization techniques with programs built from scratch to master basic to advanced plotting and customization.
 
-Machine Learning is a field of artificial intelligence that uses statistical techniques to give computer systems the ability to "learn" from data, without being explicitly programmed. This repository aims to provide a comprehensive collection of machine learning algorithms, along with explanations and usage examples.
+- **NumPy**:  
+  Dive into numerical computations with examples demonstrating array manipulations, broadcasting, and a host of mathematical operations.
 
-## Algorithms
+- **Pandas**:  
+  Explore data manipulation, cleaning, and analysis through well-commented scripts that cover data frames, merging datasets, and time-series analysis.
 
-The following algorithms are included in this repository:
+- **Projects**:  
+  Apply machine learning algorithms to real-world problems. Each project includes data preprocessing, model building, training, evaluation, and visualization.
 
-1. **Linear Regression**
-2. **Logistic Regression**
-3. **Decision Trees**
-4. **Random Forest**
-5. **K-Nearest Neighbors (KNN)**
-6. **Support Vector Machines (SVM)**
-7. **Naive Bayes**
-8. **K-Means Clustering**
-9. **Principal Component Analysis (PCA)**
-10. **Neural Networks**
+## Getting Started
 
-Each algorithm is implemented in a separate file and includes:
+### Prerequisites
 
-- A brief explanation of the algorithm
-- The mathematical formulation
-- Code implementation
-- Usage examples
+Ensure you have **Python 3.x** installed. You'll also need the following libraries:
 
-## Installation
+- [Matplotlib](https://matplotlib.org/)
+- [NumPy](https://numpy.org/)
+- [Pandas](https://pandas.pydata.org/)
+- [Scikit-learn](https://scikit-learn.org/) *(for ML projects)*
 
-To use the algorithms in this repository, you need to have Python installed on your system. You can install the required dependencies using the following command:
+Install them via pip:
 
-```bash
-pip install -r requirements.txt
+pip install matplotlib numpy pandas scikit-learn
+Cloning and Running
+
+Clone the repository: git clone https://github.com/saklain-s/Machine_Learning.git
+cd Machine_Learning
+
+## Contributing
+Contributions are welcome! If you have suggestions, improvements, or additional examples, please open an issue or submit a pull request.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+## Acknowledgments
+Matplotlib: https://matplotlib.org/
+NumPy: https://numpy.org/
+Pandas: https://pandas.pydata.org/
+Scikit-learn: https://scikit-learn.org/
+Happy coding!
