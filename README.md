@@ -1,4 +1,4 @@
-# Easy ML
+# Machine-Learning
 
 Welcome to this repository—a curated collection of hands-on programs and projects designed to deepen your understanding of Python's most popular libraries and machine learning applications.
 
