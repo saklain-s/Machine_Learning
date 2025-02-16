@@ -44,7 +44,11 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 
 ## Acknowledgments
 Matplotlib: https://matplotlib.org/
+
 NumPy: https://numpy.org/
+
 Pandas: https://pandas.pydata.org/
+
 Scikit-learn: https://scikit-learn.org/
+
 Happy coding!
