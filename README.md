@@ -5,17 +5,18 @@ Welcome to this repository—a curated collection of hands-on programs and proje
 
 ## Folders Overview
 
--[Matplotlib](https://github.com/saklain-s/Machine_Learning/tree/main/Matplotlib) 
+[Matplotlib](https://github.com/saklain-s/Machine_Learning/tree/main/Matplotlib) 
   Learn data visualization techniques with programs built from scratch to master basic to advanced plotting and customization.
 
-- **NumPy**:  
+[NumPy](https://github.com/saklain-s/Machine_Learning/tree/main/NumPy) 
   Dive into numerical computations with examples demonstrating array manipulations, broadcasting, and a host of mathematical operations.
 
-- **Pandas**:  
+[Pandas](https://github.com/saklain-s/Machine_Learning/tree/main/Pandas)  
   Explore data manipulation, cleaning, and analysis through well-commented scripts that cover data frames, merging datasets, and time-series analysis.
 
-- **Projects**:  
+[Machine Learning Projects](https://github.com/saklain-s/Machine_Learning/tree/main/Projects)   
   Apply machine learning algorithms to real-world problems. Each project includes data preprocessing, model building, training, evaluation, and visualization.
+  There are several ipynb files which describes how I have deployed various projects
 
 ## Getting Started
 
