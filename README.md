@@ -5,7 +5,7 @@ Welcome to this repository—a curated collection of hands-on programs and proje
 
 ## Folders Overview
 
-- **Matplotlib**:  
+-[Matplotlib](https://github.com/saklain-s/Machine_Learning/tree/main/Matplotlib) 
   Learn data visualization techniques with programs built from scratch to master basic to advanced plotting and customization.
 
 - **NumPy**:  
