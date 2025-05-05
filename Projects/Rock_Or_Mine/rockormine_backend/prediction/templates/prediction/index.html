@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Rock vs Mine Prediction</title>
+</head>
+<body>
+    <h1>Rock vs Mine Prediction</h1>
+    <form method="post" action="{% url 'predict' %}">
+        {% csrf_token %}
+        <p>Enter 60 sonar feature values separated by commas:</p>
+        <textarea name="input" rows="5" cols="80" placeholder="e.g. 0.02,0.01,0.03,..."></textarea><br/><br/>
+        <button type="submit">Predict</button>
+    </form>
+    {% if prediction %}
+        <h2>Prediction Result: {{ prediction }}</h2>
+    {% endif %}
+</body>
+</html>
