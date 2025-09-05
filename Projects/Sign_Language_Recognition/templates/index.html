@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Language Recognition</title>
+    <style>
+        body { font-family: 'Segoe UI', Arial, sans-serif; background: #f4f8fb; margin: 0; }
+        .container { max-width: 420px; margin: 60px auto; background: #fff; border-radius: 16px; box-shadow: 0 4px 24px rgba(44, 62, 80, 0.08); padding: 32px 28px 24px 28px; }
+        h2 { text-align: center; color: #2d3a4a; margin-bottom: 24px; }
+        form { text-align: center; }
+        input[type="file"] { margin: 18px 0; }
+        button[type="submit"], #capture-btn { width: 100%; background: linear-gradient(90deg, #4f8cff 0%, #38b6ff 100%); color: #fff; border: none; border-radius: 6px; padding: 12px 0; font-size: 1.1em; font-weight: 600; cursor: pointer; margin-top: 8px; box-shadow: 0 2px 8px rgba(44, 62, 80, 0.07); transition: background 0.2s; }
+        button[type="submit"]:hover, #capture-btn:hover { background: linear-gradient(90deg, #38b6ff 0%, #4f8cff 100%); }
+        .result { margin-top: 24px; font-size: 1.18em; color: #1a4d2e; background: #eafaf1; border-left: 4px solid #38b6ff; padding: 14px 18px; border-radius: 6px; text-align: center; }
+    #video, #canvas { display: block; margin: 10px auto; border-radius: 12px; box-shadow: 0 2px 8px rgba(44,62,80,0.07); }
+    #video { width: 320px; height: 240px; background: #222; }
+    #canvas { width: 64px; height: 64px; display: none; }
+        #capture-btn { margin-bottom: 10px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Sign Language Recognition</h2>
+        <form id="upload-form" method="post" enctype="multipart/form-data">
+            <input id="upload-input" type="file" name="image" accept="image/*" style="display:none;">
+            <video id="video" autoplay></video>
+            <canvas id="canvas" width="64" height="64" style="display:none;"></canvas>
+            <button type="button" id="live-predict-btn">Live Predict</button>
+            <div style="margin: 10px 0; color: #888;">or</div>
+            <label style="display:block; margin-bottom:10px;">Upload Image: <input type="file" name="image" accept="image/*"></label>
+            <button type="submit">Predict Sign</button>
+        </form>
+        <div id="live-result" class="result" style="display:none;"></div>
+        <script src="/static/camera.js"></script>
+        {% if prediction %}
+            <div class="result">
+                <strong>Predicted Sign:</strong> {{ prediction }}
+            </div>
+        {% endif %}
+    </div>
+</body>
+</html>
